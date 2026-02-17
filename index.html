@@ -10,8 +10,32 @@
     h1 { margin: 8px 0 14px; font-size: 22px; }
     .card { background: white; border-radius: 12px; padding: 14px; box-shadow: 0 2px 10px rgba(0,0,0,.08); }
     img.flyer { width: 100%; height: auto; display: block; border-radius: 8px; }
-    .note { margin-top: 10px; color: #444; font-size: 14px; }
+    .note { margin-top: 14px; color: #444; font-size: 14px; text-align: center; }
     a { color: inherit; }
+
+    /* inschrijf knop */
+    a.cta {
+      display: inline-block;
+      margin-top: 14px;
+      background: #8c5aa6;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      transition: 0.2s;
+    }
+
+    a.cta:hover {
+      background: #74478b;
+    }
+
+    .cta-sub {
+      margin-top: 6px;
+      font-size: 13px;
+      color: #666;
+    }
   </style>
 </head>
 <body>
@@ -20,11 +44,20 @@
 
     <div class="card">
       <img class="flyer" src="DeKleiverbinding2.png" alt="De Kleiverbinding" />
+
       <div class="note">
-        Contact: <a href="mailto:info@dekleiverbinding.nl">info@dekleiverbinding.nl</a>
+        Contact: <a href="mailto:info@dekleiverbinding.nl">info@dekleiverbinding.nl</a><br>
+
+        <a class="cta" href="https://forms.gle/r9LgYJCrtUeDyzVs9" target="_blank">
+          Aanmelden voor een match bij De Kleiverbinding 
+        </a>
+
+        <div class="cta-sub">
+          Na aanmelding ontvang je jouw kleimatch
+        </div>
       </div>
+
     </div>
   </div>
 </body>
 </html>
-
